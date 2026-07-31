@@ -19,8 +19,8 @@ REASONING_EFFORT="${REASONING_EFFORT:-low}"  # low|medium|high; set empty to omi
 VERBOSITY="${VERBOSITY:-low}"
 # Client-side loop detector (abort stream early — stops billing on supporting providers)
 REP_MIN_CHARS="${REP_MIN_CHARS:-16}"       # min line/phrase length to count as a loop
-REP_LINE_STREAK="${REP_LINE_STREAK:-13}"    # identical consecutive lines before abort
-REP_PHRASE_HITS="${REP_PHRASE_HITS:-13}"    # same phrase must appear this many times
+REP_LINE_STREAK="${REP_LINE_STREAK:-5}"    # identical consecutive lines before abort
+REP_PHRASE_HITS="${REP_PHRASE_HITS:-5}"    # same phrase must appear this many times
 REP_CHECK_EVERY="${REP_CHECK_EVERY:-64}"  # chars between repetition checks
 
 BODY=$(
