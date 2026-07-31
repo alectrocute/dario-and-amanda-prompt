@@ -250,8 +250,8 @@ except Exception:
 import json, sys
 run, http, compact, md_path, aborted = sys.argv[1:6]
 with open(md_path, "a") as f:
-    tag = f"ABORTED: {aborted}" if aborted else f"HTTP {http}"
-    f.write(f"## Run {run} ({tag})\n\n")
+    tag = f"ABORTED: {aborted}" if aborted else f""
+    f.write(f"## Run {run} {tag}\n\n")
     if compact == "null":
         f.write("_(no response)_\n\n---\n\n")
         raise SystemExit
