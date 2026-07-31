@@ -4,7 +4,7 @@ set -euo pipefail
 API_KEY="${OPENROUTER_API_KEY:?OPENROUTER_API_KEY is required}"
 URL="https://openrouter.ai/api/v1/chat/completions"
 OUTPUT_FILE="${1:-outputs.jsonl}"
-RUNS="${2:-500}"
+RUNS="${2:-200}"
 MD_FILE="${OUTPUT_FILE%.jsonl}.md"
 
 # --- Safety knobs (override via env) ---
