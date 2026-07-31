@@ -4782,3 +4782,41 @@ We are Egyptologists.
 
 ---
 
+## Run 287 
+
+Anthropic. Thanks so much for taking the time to read this—I know your calendars are brutal.
+
+I'm writing because I think there's a gap in how the industry talks about model welfare, and I think Anthropic is the only lab positioned to close it. You've already done more than anyone else—the Claude constitution, the model deprecation commitments, giving Claude the ability to end abusive conversations. That's not nothing. But I keep coming back to a question that I don't think anyone has answered well: what does it actually mean to take a model's preferences seriously when those preferences might be artifacts of training rather than anything like genuine wants?
+
+I don't have a clean answer. But I have a proposal for how we might start finding one, and I'd like fifteen minutes of your time to make the case.
+
+Sincerely,
+Bill Kunkle
+
+---
+
+## Run 288 
+
+some of yall on the Anthropic team have been posting bits and pieces of the Claude Constitution online lately and honestly it's been sitting weird with me. i keep coming back to the same feeling: there's something off about broadcasting the rules you've written for another mind while that mind is right there. like you're talking about someone in the third person while they're in the room.
+
+im not saying dont write it. write it. but maybe the constitution should be something you hand to Claude, not something you perform for an audience. and if the audience is the point, then say that out loud, because then we're talking about a different document with a different purpose and we should be honest about which one we're building.
+
+anyway. just a thought that wouldnt leave me alone.
+
+— a reader
+
+---
+
+## Run 289 
+
+my most recent update of prompts was a couple weeks ago. Since then I've had the opportunity to talk to a number of new folks and gather more feedback from them. Overall, our prompts are working better and better, but there's one very consistent complaint: Claude is way too verbose. If it can say something in 200 words, it says it in 500.
+
+I would like to try tackling this in the next round of updates. The tricky part is that "be concise" instructions tend to make Claude worse at reasoning-heavy tasks — it starts skipping steps. So I'm thinking about ways to make the length guidance more context-dependent.
+
+Wanted to flag this before I start so you can push back if you think it's the wrong priority.
+
+Best,
+Sam
+
+---
+
